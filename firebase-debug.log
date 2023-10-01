@@ -1,0 +1,53 @@
+[debug] [2023-10-01T13:44:39.064Z] ----------------------------------------------------------------------
+[debug] [2023-10-01T13:44:39.068Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\derom\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-10-01T13:44:39.068Z] CLI Version:   12.6.1
+[debug] [2023-10-01T13:44:39.068Z] Platform:      win32
+[debug] [2023-10-01T13:44:39.069Z] Node Version:  v18.17.0
+[debug] [2023-10-01T13:44:39.079Z] Time:          Sun Oct 01 2023 14:44:39 GMT+0100 (West Africa Standard Time)
+[debug] [2023-10-01T13:44:39.079Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-01T13:44:39.290Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-01T13:44:39.290Z] > authorizing via signed-in user (artistkentdev@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-10-01T13:44:39.318Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-01T13:44:39.318Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-01T13:44:39.319Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-10-01T13:44:39.339Z] [hub] writing locator at C:\Users\derom\AppData\Local\Temp\hub-handyman-website-world.json
+[debug] [2023-10-01T13:44:39.376Z] > refreshing access token with scopes: []
+[debug] [2023-10-01T13:44:39.381Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-01T13:44:39.381Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-01T13:44:40.037Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-01T13:44:40.038Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-01T13:44:40.053Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/handyman-website-world/sites 
+[debug] [2023-10-01T13:44:41.405Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/handyman-website-world/sites 200
+[debug] [2023-10-01T13:44:41.406Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/handyman-website-world/sites {"sites":[{"name":"projects/handyman-website-world/sites/handyman-website-world","defaultUrl":"https://handyman-website-world.web.app","appId":"1:1047785251418:web:f01d3f46a7ac034551ae63","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-01T13:44:41.406Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/handyman-website-world/webApps/1:1047785251418:web:f01d3f46a7ac034551ae63/config [none]
+[debug] [2023-10-01T13:44:42.423Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/handyman-website-world/webApps/1:1047785251418:web:f01d3f46a7ac034551ae63/config 200
+[debug] [2023-10-01T13:44:42.424Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/handyman-website-world/webApps/1:1047785251418:web:f01d3f46a7ac034551ae63/config {"projectId":"handyman-website-world","appId":"1:1047785251418:web:f01d3f46a7ac034551ae63","storageBucket":"handyman-website-world.appspot.com","apiKey":"AIzaSyA4ezFoNImS77TQqC5MEsBp3Hx6eVsZajM","authDomain":"handyman-website-world.firebaseapp.com","messagingSenderId":"1047785251418","measurementId":"G-YLEMJ3HS2Y"}
+[debug] [2023-10-01T13:44:42.429Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/handyman-website-world [none]
+[debug] [2023-10-01T13:44:43.088Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/handyman-website-world 200
+[debug] [2023-10-01T13:44:43.088Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/handyman-website-world {"projectId":"handyman-website-world","projectNumber":"1047785251418","displayName":"Handyman Website","name":"projects/handyman-website-world","resources":{"hostingSite":"handyman-website-world"},"state":"ACTIVE","etag":"1_0331184c-d553-49fb-8506-8f2cd2e61802"}
+[info] i  hosting[handyman-website-world]: Serving hosting files from: src {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1msrc\u001b[22m"}}
+[info] +  hosting[handyman-website-world]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] "GET /styles.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] \"GET /styles.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] "GET /script.js HTTP/1.1" 200 589 "http://127.0.0.1:5000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] \"GET /script.js HTTP/1.1\" 200 589 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] "GET /images/logo_main_no_back.png HTTP/1.1" 200 13663 "http://127.0.0.1:5000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] \"GET /images/logo_main_no_back.png HTTP/1.1\" 200 13663 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] "GET /images/Hero%20image.jpg HTTP/1.1" 200 98440 "http://127.0.0.1:5000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [01/Oct/2023:13:44:57 +0000] \"GET /images/Hero%20image.jpg HTTP/1.1\" 200 98440 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [01/Oct/2023:13:44:59 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:5000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [01/Oct/2023:13:44:59 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/117.0.0.0\""}}
