@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+header {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+  display: inline;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  color: #fff;
+  text-align: center;
+  background-image: url("Hero image.97cb295d.jpg");
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#hero h2 {
+  font-size: 3em;
+}
+
+#hero .cta-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #333;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+#hero .cta-button:hover {
+  background-color: #555;
+}
+
+#services {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.service-card {
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+}
+
+#about {
+  padding: 40px 0;
+}
+
+#contact {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */
